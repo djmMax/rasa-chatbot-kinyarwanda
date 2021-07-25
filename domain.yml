@@ -67,7 +67,7 @@ slots:
 responses:
   utter_salutation:
   - text: |
-      Muraho! amazina yange ni  RBC-Mbaza 👋!
+      Muraho! amazina yange ni  RBC Mbaza 👋!
       mushobora kumbaza ibibazo byose mwibaza kuri Kovide 19.
 
   utter_statistics_local:
