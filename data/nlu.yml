@@ -31,6 +31,17 @@ nlu:
     - ni kese zingahe za  [covid-19](disease) muri [kigali](location)?
     - habonetse abarwayi bangahe ba [kovide](disease) [uyu munsi](time) mu [rwanda](location)
     - mu [rwanda](location) handuye bangahe [uyu munsi](time)
+    - ni abantu bangahe bamaze kwandura [kovide](disease) mu [rwanda](location)?
+    - ni uwuhe mubare wabamaze kwandura [virusi](disease) ku [isi](location) yose?
+    - [uyu munsi](time) ndetse n'[ejo](time) harwaye bangahe?
+    - abanduye ni bangahe
+    - ubwandu bugeze kukihe gipimo
+    - nigute byifashe mumibare ya [covid-19](disease) mu [rwanda](location)
+    - amakuru yibya [covid-19](disease)
+    - [covid-19](disease) ihagaze ite?
+    - imibare imeze ite
+    - mu Rwanda bimeze bite
+
 
 - intent: statistics_global
   examples: |
