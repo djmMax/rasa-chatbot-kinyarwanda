@@ -28,7 +28,6 @@ entities:
   - disease
   - person
   - senior
-  - LOC
   - hospital
   - {
 
@@ -68,7 +67,7 @@ slots:
 responses:
   utter_salutation:
   - text: |
-      Muraho! amazina yange ni  Mbaza 👋!
+      Muraho! amazina yange ni  RBC-Mbaza 👋!
       mushobora kumbaza ibibazo byose mwibaza kuri Kovide 19.
 
   utter_statistics_local:
@@ -136,6 +135,11 @@ responses:
       - juakali \n
       - ndetse nibindi bitaro byemewe na RBC."
   utter_testing_costs:
+    - text: "Igiciro cyo kwipimisha ni:\n
+      - amadolari 60 cyangwa  57,300 Rwf ku bagenzi binjira mu gihugu,\n
+      - 47,000 Rwf ku bagenzi basohoka mu gihugu."
+  
+  utter_testing_result:
     - text: "Igiciro cyo kwipimisha ni:\n
       - amadolari 60 cyangwa  57,300 Rwf ku bagenzi binjira mu gihugu,\n
       - 47,000 Rwf ku bagenzi basohoka mu gihugu."

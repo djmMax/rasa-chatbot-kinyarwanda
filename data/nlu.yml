@@ -91,6 +91,24 @@ nlu:
     - uri umuntu?
     - witwa nde?
     - ndavugana n' umuntu?
+    - wakwozwe na nde?
+    - wigiyehe ikinyarwanda?
+    - uvuga izihe ndimi zindi?
+    - uruwahe
+    - urihe
+    - iwanyu nihe
+    - ninde wagukoze
+    - uba hehe?
+    - urarya?
+    - uzi ikinyarwanda?
+    - uragenda?
+    - uravuga?
+    - waba uri irobot?
+    - ko bambwiye ko uri robot
+    - ndikuvugana nande?
+    - ndikuvugana n’irobo
+    - waba uri umuntu
+
 
 - intent: testing_procedures
   examples: |
@@ -136,9 +154,30 @@ nlu:
   examples: |
     - [umugore](person) wange arashaka [kujya](event) muri [belgium](country), ese ibipimo bya kovide ni angahe?
     - [umwana](person) wange arimo  [kwiga](event) muri [canada](country), ibipimo bya  [virusi](disease) ni angahe?
+    - kwipimisha ni angahe
+    - ngomba gutanga angahe kugira ngo bampime [covid](disease)
+    - Kwipimisha [covid](disease) bitwara amafaranga angahe?
+    - ngomba gutanga angahe kugira ngo bampime?
+    - cash zo kwipimisha nangahe?
+    - Aamafranga yo kwipimisha ni angahe? Yishyurwa gute?
+    - nshaka kwipimisha bitwara angahe?
+    - amafranga yo kwipimisha ni angahe? Kwishyura ni gute?
+    - kwishyura ni gute?
+
 
 
 - intent: testing_validity
   examples: |
     - [ndashaka kujya] (event) muri [amsterdam](location), ndi gusabwa kugira ibisubizo by'ikizamini cya kovide gifite agaciro, nashakaga kumenya agaciro k'ibisubizo.
     - ni bande barimo gupimwa [corona](disease) [virusi](disease) muri iki gihe?
+    - ni bande barimo gupimwa [corona](disease) [virusi](disease) muri iki gihugu?
+    - iyo wipimisha [kovide](disease) bigira agaciro igihe kingana gite?
+    - [namenya] (event) gute ibisubizo byanjye gute?
+    - harya urukingo rumara [igihe] (time) kingahe mbere y’uko [gita] (event) agaciro
+    - [kwipimisha] (event) [bita] (event) agaciro nyuma y’[igihe] (time) kingana gute?
+    - ubwo pcr test [ita] (event) agaciro nyuma y’[iminsi] (time) ingahe
+    - Pcr [ita] (event) agaciro nyuma y’[igihe] (time) kingana gute?
+    - [kwipimisha] (event) bita agaciro nyuma y’iminsi ingahe
+    - harya [kwipimisha] (event) bita agaciro nyuma y’[igihe] (time) kingana gute
+
+    
